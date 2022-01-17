@@ -49,6 +49,7 @@ binary_tree_t **create_queue(int *, int *);
 void enqueue(binary_tree_t **, int *, binary_tree_t *);
 binary_tree_t *dequeue(binary_tree_t **, int *);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 
 
 #endif
